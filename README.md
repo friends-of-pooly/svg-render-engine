@@ -27,7 +27,7 @@ cp .envrc.example .envrc
 
 Build flows are handled via tasks pipelines: schedule, execute, and cache.
 
-Edit the `turbo.json` file in the root directory to define new [pieplines](https://turborepo.org/docs/core-concepts/pipelines)
+Edit the `turbo.json` file in the root directory to define new [pipelines](https://turborepo.org/docs/core-concepts/pipelines)
 
 **Start Building**
 
