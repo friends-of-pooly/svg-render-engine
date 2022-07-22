@@ -44,7 +44,7 @@ contract SVGColor {
     bytes memory _colors,
     bytes memory _id,
     bytes memory _customAttributes
-  ) external view returns (bytes memory) {
+  ) external pure returns (bytes memory) {
     bytes memory _b;
     if (_coordinates.length > 3) {
       _b = abi.encodePacked(uint8(128), _coordinates);
