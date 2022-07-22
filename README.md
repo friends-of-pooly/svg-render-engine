@@ -1,4 +1,4 @@
-# SVG Render Engine
+# SVG Render EVM
 
 ![TS](https://badgen.net/badge/-/TypeScript?icon=typescript&label&labelColor=blue&color=555555)
 [![GPLv3 license](https://img.shields.io/badge/License-MIT-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
@@ -51,11 +51,11 @@ The fastest way to start hacking is to run the `lab` task pipeline: starts local
     },
     "watch": {
       "dependsOn": ["^watch"],
-      "outputs": [""],
+      "outputs": [""]
     },
     "dev": {
       "dependsOn": ["^dev"],
-      "outputs": [""],
+      "outputs": [""]
     },
     "lab": {
       "dependsOn": ["^watch", "^chain", "@turbo-eth/demo-app#dev"],
